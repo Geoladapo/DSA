@@ -114,4 +114,11 @@ public class Heap {
         items[first] = items[second];
         items[second] = temp;
     }
+
+    public int max(){
+        if(isEmpty()){
+            throw new IllegalStateException();
+        }
+        return items[0];
+    }
 }
