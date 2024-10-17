@@ -11,7 +11,7 @@ public class Order {
         System.out.println("Order ID: " + orderID);
     }
 
-    public class Item {
+    public static class Item {
         private String itemID;
         private String itemName;
         private int quantity;
